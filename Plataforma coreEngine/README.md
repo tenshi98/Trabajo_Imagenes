@@ -1,73 +1,96 @@
-# Plataforma SimpliVet
-Plataforma dividida en tres sub-plataformas.
+# Plataforma coreEngine
+Plataforma Básica enfocada al manejo e interacción con los distintos módulos instalados, algunos independientes de otros, y otros dependientes de la instalación de otros módulos
 
-### Demo Plataforma Clientes
+### Demo Plataforma
 URL Demo: [democliente.simplivet.cl](https://democliente.simplivet.cl/)<br/>
 Usuario: demo1@testmail.com<br/>
 Contraseña: 1234
 
-### Descripción
-#### Plataforma Administrativa
-Plataforma hecha para administrar a los clientes, en este caso las veterinarias y establecer sus planes de contrato y hacer las facturaciones mensuales por los servicios.
+### Caracteristicas
+#### Funcionalidades de la plataforma
+#### - Core
+Base funcional de la plataforma
 
-#### Plataforma Clientes
-Plataforma de atención de mascotas, llevando el detalle de las vacunas, atenciones, hospitalizaciones y cirugías. También permite administrar los centros, los servicios, los productos a la venta, los empleados y las bodegas, dependiendo de la configuración de la cuenta, puede enviar notificaciones por email y por whatsapp, entre sus funciones se encuentran:<br/>
-•	Administración Centros.<br/>
-•	Administración Trabajadores.<br/>
-•	Administración productos y servicios.<br/>
-•	Administración tutores y mascotas.<br/>
-•	Gestión Bodegas (compra, ventas, uso productos en servicios, etc.).<br/>
-•	Atención mascotas.<br/>
-•	Hospitalización mascotas.<br/>
-•	Peluquería mascotas.<br/>
-•	Hotel mascotas.<br/>
-•	Reservas de Hora para atención.<br/>
-•	Reservas de Hora para cirugías.<br/>
-•	Atención Caja.<br/>
-•	Envío de correos recordatorios de los servicios (vacunas anuales, retiro mascotas hotel, etc.).
-
-#### Plataforma Tutores
-Plataforma para los tutores, donde pueden ver sus mascotas, sus historiales médicos, sus calendarios de vacunas, hacer reservas de horas de atención o cirugía, confirmar la asistencia a dichas reservas, etc.
-
-### Imágenes
-#### Login de la plataforma Clientes
+##### Login
+Pantalla de inicio sesión y recuperación de contraseña
 <img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_1.jpg' />
-
-#### Selección trabajador y centro donde va a trabajar
 <img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_2.jpg' />
 
-#### Pantalla principal
+##### Principal
+Pantalla principal al iniciar Sesión
 <img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_3.jpg' />
 
-#### Menú de la plataforma
+##### Perfil
+Sección de modificacion datos del perfil del usuario logueado
 <img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_4.jpg' />
-
-#### Atención Mascotas
-Se muestra el filtro de búsqueda, desde donde se puede buscar con los datos del tutor o los datos de la mascota.
 <img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_5.jpg' />
-
-#### Pantalla resúmen del tutor
-Muestra los datos del tutor, asi como también todas las mascotas a nombre de éste.
 <img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_6.jpg' />
 
-#### Datos de la mascota
-Muestra todos los datos de la mascota, agrupados por el tipo de servicio.
+##### Plataforma - Pruebas
+Apartado para hacer pruebas y testeos de la plataforma
 <img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_7.jpg' />
-
-#### Caja
-Se muestran todas las facturaciones pendientes de cobro generadas desde la atención de mascotas, al igual que caja también puede generar facturaciones propias.
 <img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_8.jpg' />
-
-#### Detalle de la facturación
-Muestra el detalle de la facturación, en este caso una atención de la mascota.
 <img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_9.jpg' />
-
-#### Informe flujo caja
-Muestra en detalle todas las facturaciones valorizadas y con su estado de pago, segmentadas por el centro donde se hizo y el servicio que lo origino.
 <img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_10.jpg' />
 
-### Sitio Web
-[simplivet.cl](https://simplivet.cl/)
+##### Plataforma - Componentes
+Listado de los componentes para las distintas funciones
+<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_11.jpg' />
+<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_12.jpg' />
+<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_13.jpg' />
+<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_14.jpg' />
+
+##### Plataforma - Administración
+Sección para la administración de la plataforma
+<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_15.jpg' />
+<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_16.jpg' />
+<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_17.jpg' />
+<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_18.jpg' />
+
+#### - Gestión usuarios:
+Módulo instalado por defecto que permite la gestión, asignación de permisos y sus niveles de acceso a los distintos módulos instalados
+<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_19.jpg' />
+<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_20.jpg' />
+<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_21.jpg' />
+<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_22.jpg' />
+<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_23.jpg' />
+
+#### - Gestión de proyectos:
+Módulo de proyectos utilizando un tablero kanban. Permite la creación y administración de las tareas dentro del tablero kanban. También permite la creación y administración de cada etapa de los proyectos, también permite la configuración de las tareas internas de cada tarea ingresada, permitiendo la utilización de solo descripciones o la utilización de tareas predeterminadas configuradas en otra transacción separada.
+<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_24.jpg' />
+<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_25.jpg' />
+<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_26.jpg' />
+<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_27.jpg' />
+<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_28.jpg' />
+
+#### - Gestión documentos mercantiles:
+Módulo que permite el ingreso de documentos mercantiles tales como ordenes de compra, guías de despacho, facturas, notas de crédito y débito, también permite la administración de sus estados de pago. Se puede configurar para que trabaje en conjunto con el modulo Gestión Bodegas y Productos para registrar el ingreso/salida de productos a las distintas bodegas de la empresa. También permite la interacción con el SII mediante el uso de un servicio externo Libre DTE utilizando su API.
+
+#### - Gestión Bodegas y Productos:
+Módulo que permite el manejo de stock, el ingreso/egreso y el movimiento de productos entre las distintas bodegas administradas
+
+#### - Gestión Mantenciones:
+Módulo que permite el manejo de las mantenciones de las distintas maquinas al interior de las empresas, gestionando sus mantenciones preventivas, de urgencia y los análisis de las maquinas que lo requieran. Requiere del modulo Gestión Máquinas, Gestión Entidades y Gestión Ubicaciones para funcionar (para identificar la máquina que se le va a hacer mantenimiento, la ubicación de esta al interior de la empresa y las personas encargadas de hacer los mantenimientos), de forma alternativa se puede hacer uso del Módulo Gestión Bodegas y Productos para llevar un detalle de los productos utilizados en cada mantenimiento
+
+#### - Gestión Entidades:
+Módulo enfocado en la gestión de personas/empresas, sus contactos, observaciones ingresadas, etc. Es un modulo cuya función es ser utilizado por los demás módulos
+
+#### - Gestión Vendedores:
+Módulo enfocado a la captación de prospectos de clientes y la fidelización de estos, hace uso del modulo Gestión Entidades. Si esta en uso el modulo de Gestión documentos mercantiles también lleva los KPI de ventas generadas
+
+#### - Gestión Máquinas:
+Módulo que permite la administración de los distintos equipos o maquinas dentro de la empresa
+
+#### - Gestión Ubicaciones:
+Módulo que permite la gestión de las ubicaciones al interior de la empresa
+
+#### - Gestión Producción:
+Módulo enfocado a la gestión de tiempos en el proceso productivo de las empresas, permite llevar un registro de los tiempos de preparación, producción y tiempos muertos de cada orden de fabricación de la empresa, para asi ofrecer mediante KPI distintas soluciones a los tiempos muertos que son el principal factor en las perdidas y disminución de la productividad
+
+#### - Gestión R.R.H.H.:
+Módulo enfocado en la gestión del personal al interior de las empresas, permite entre otras cosas la gestión de trabajadores, la gestión de cargas, la facturación de sueldo, la gestión de anticipos de sueldo, la asignación de bonos fijos y temporales, la gestión de las cartas de amonestación, la gestión de los descuentos por prestamos, la gestión de las horas extras, la gestión de las inasistencias, etc.
+
+
 
 ---
 
