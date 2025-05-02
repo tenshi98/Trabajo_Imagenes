@@ -13,55 +13,55 @@ Base funcional de la plataforma
 
 ##### Login
 Pantalla de inicio sesión y recuperación de contraseña
-<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_1.jpg' />
-<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_2.jpg' />
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_1.jpg' />
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_2.jpg' />
 
 ##### Principal
 Pantalla principal al iniciar Sesión
-<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_3.jpg' />
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_3.jpg' />
 
 ##### Perfil
 Sección de modificacion datos del perfil del usuario logueado
-<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_4.jpg' />
-<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_5.jpg' />
-<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_6.jpg' />
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_4.jpg' />
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_5.jpg' />
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_6.jpg' />
 
 ##### Plataforma - Pruebas
 Apartado para hacer pruebas y testeos de la plataforma
-<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_7.jpg' />
-<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_8.jpg' />
-<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_9.jpg' />
-<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_10.jpg' />
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_7.jpg' />
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_8.jpg' />
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_9.jpg' />
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_10.jpg' />
 
 ##### Plataforma - Componentes
 Listado de los componentes para las distintas funciones
-<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_11.jpg' />
-<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_12.jpg' />
-<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_13.jpg' />
-<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_14.jpg' />
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_11.jpg' />
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_12.jpg' />
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_13.jpg' />
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_14.jpg' />
 
 ##### Plataforma - Administración
 Sección para la administración de la plataforma
-<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_15.jpg' />
-<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_16.jpg' />
-<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_17.jpg' />
-<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_18.jpg' />
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_15.jpg' />
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_16.jpg' />
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_17.jpg' />
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_18.jpg' />
 
 #### - Gestión usuarios:
 Módulo instalado por defecto que permite la gestión, asignación de permisos y sus niveles de acceso a los distintos módulos instalados
-<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_19.jpg' />
-<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_20.jpg' />
-<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_21.jpg' />
-<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_22.jpg' />
-<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_23.jpg' />
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_19.jpg' />
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_20.jpg' />
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_21.jpg' />
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_22.jpg' />
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_23.jpg' />
 
 #### - Gestión de proyectos:
 Módulo de proyectos utilizando un tablero kanban. Permite la creación y administración de las tareas dentro del tablero kanban. También permite la creación y administración de cada etapa de los proyectos, también permite la configuración de las tareas internas de cada tarea ingresada, permitiendo la utilización de solo descripciones o la utilización de tareas predeterminadas configuradas en otra transacción separada.
-<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_24.jpg' />
-<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_25.jpg' />
-<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_26.jpg' />
-<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_27.jpg' />
-<img src='https://raw.githubusercontent.com/tenshi98/Trabajo_Imagenes/main/Plataforma%20SimpliVet/src/img_28.jpg' />
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_24.jpg' />
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_25.jpg' />
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_26.jpg' />
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_27.jpg' />
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_28.jpg' />
 
 #### - Gestión documentos mercantiles:
 Módulo que permite el ingreso de documentos mercantiles tales como ordenes de compra, guías de despacho, facturas, notas de crédito y débito, también permite la administración de sus estados de pago. Se puede configurar para que trabaje en conjunto con el modulo Gestión Bodegas y Productos para registrar el ingreso/salida de productos a las distintas bodegas de la empresa. También permite la interacción con el SII mediante el uso de un servicio externo Libre DTE utilizando su API.
