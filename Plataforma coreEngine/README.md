@@ -2,7 +2,7 @@
 Plataforma Básica enfocada al manejo e interacción con los distintos módulos instalados, algunos independientes de otros, y otros dependientes de la instalación de otros módulos
 
 ### Demo Plataforma
-URL Demo: [democliente.simplivet.cl](https://democliente.simplivet.cl/)<br/>
+URL Demo: [democoreengine.digitalcreations.cl](https://democoreengine.digitalcreations.cl/)<br/>
 Usuario: demo1@testmail.com<br/>
 Contraseña: 1234
 
