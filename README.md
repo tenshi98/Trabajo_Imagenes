@@ -13,7 +13,7 @@ Muchos de estos están en repositorios privados debido al contrato firmado con e
 - [Plataforma SimpliVet](https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma%20SimpliVet)
 - [Plataforma Bienestar Inacap](https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma%20Bienestar%20Inacap)
 - [Plataforma coreEngine](https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma%20coreEngine)
-- [Plataforma Campañas](https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma%20coreEngine)
+- [Plataforma Campañas](https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma%20Campa%C3%B1as)
 - [APP SOSClick](https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20SOSClick)
 
 ### Inactivos
