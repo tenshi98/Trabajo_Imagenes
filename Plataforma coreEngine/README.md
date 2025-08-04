@@ -12,14 +12,12 @@ Contraseña: 1234
 Base funcional de la plataforma
 
 ##### Login
-Pantalla de inicio sesión y recuperación de contraseña
-
+<p>Pantalla de inicio sesión y recuperación de contraseña</p>
 <img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_1.jpg' />
 <img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_2.jpg' />
 
 ##### Principal
-Pantalla principal al iniciar Sesión
-
+<p>Pantalla principal al iniciar Sesión</p>
 <img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_3.jpg' />
 
 ##### Perfil

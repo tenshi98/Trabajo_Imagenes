@@ -6,15 +6,14 @@ Una lista de los proyectos en los que sigo trabajando activamente o que a pesar 
 
 Muchos de estos están en repositorios privados debido al contrato firmado con ellos, por lo que solo estoy subiendo imágenes y describiendo lo que hace la plataforma a grandes rasgos.
 
-- [Plataforma Agropraxis](https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma%20Agropraxis)
 - [Plataforma Aguas EAPEC](https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma%20Aguas%20EAPEC)
 - [Plataforma Gestión Modular](https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma%20Gesti%C3%B3n%20Modular)
 - [Plataforma Mantenlubric](https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma%20Mantenlubric)
-- [Plataforma Somos Teatro](https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma%20Somos%20Teatro)
 - [Plataforma Terrania](https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma%20Terrania)
 - [Plataforma SimpliVet](https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma%20SimpliVet)
 - [Plataforma Bienestar Inacap](https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma%20Bienestar%20Inacap)
 - [Plataforma coreEngine](https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma%20coreEngine)
+- [Plataforma Campañas](https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma%20coreEngine)
 - [APP SOSClick](https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20SOSClick)
 
 ### Inactivos
@@ -49,6 +48,8 @@ Una lista de los proyectos que ya cumplieron con su función o que han sido aban
 - [Plataforma TodosComunicados](https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma%20TodosComunicados)
 - [Plataforma ubica tu colectivo](https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma%20ubica%20tu%20colectivo)
 - [Plataforma Vendo mi Campo](https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma%20Vendo%20mi%20Campo)
+- [Plataforma Agropraxis](https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma%20Agropraxis)
+- [Plataforma Somos Teatro](https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma%20Somos%20Teatro)
 
 ## Licencia 📄
 Este proyecto está bajo la Licencia GPL-3.0 license - ve el archivo [LICENSE](LICENSE) para detalles
