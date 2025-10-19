@@ -6,10 +6,58 @@ URL Demo: [democoreengine.digitalcreations.cl](https://democoreengine.digitalcre
 Usuario: demo1@testmail.com<br/>
 Contraseña: 1234
 
+---
+
+## Resumen Ejecutivo de la Plataforma
+
+Esta plataforma está diseñada específicamente para **pequeñas y medianas empresas (PyMEs)** con infraestructura de alojamiento estándar, compatible con entornos **LAMP/LEMP** (servidores **Apache o Nginx**, **PHP** y **MySQL**).
+
+La arquitectura inicial es un **monolito unificado** que integra la interfaz de usuario, la lógica de negocio y la capa de datos en un solo despliegue. No obstante, su **diseño modular** y el manejo interno de rutas facilitan una **migración o evolución fluida** hacia una arquitectura de *backend* basada en *endpoints* (servicios web/APIs) en el futuro, garantizando la **escalabilidad** y **adaptabilidad** a medida que la empresa crece.
+
+---
+
+## Stack Tecnológico
+
+El proyecto se basa en **Fat-Free Framework (F3)**, un **micro *framework*** reconocido por su ligereza y mínima demanda de recursos de servidor, ideal para entornos de alojamiento compartido o limitados.
+
+| Componente | Tecnologías Clave | Propósito |
+| :--- | :--- | :--- |
+| **Backend / Lógica** | **Fat-Free Framework (F3)** | Micro *framework* PHP ligero. |
+| **Base de Datos** | **MySQL** | Utiliza el **ORM nativo de F3**, permitiendo una fácil **portabilidad** a otras bases de datos relacionales. |
+| **Interfaz Gráfica (UI)** | **Bootstrap 5**, Glyhicons, Boxicons. | Componentes visuales y *frontend* responsivo. |
+| **Funcionalidad *Frontend*** | **jQuery**, SweetAlert, Chart.js, ApexCharts, Plotly.js, Material-Picker. | Interactividad avanzada, notificaciones, visualización de datos (**gráficos y *dashboards***). |
+
+---
+
+## Arquitectura y Patrones de Diseño
+
+La plataforma adopta la **Arquitectura *Screaming***, la cual prioriza la **modularidad** y la fácil instalación de nuevos componentes (*plugins* o módulos).
+
+* **Estructura Interna:** Cada módulo sigue el patrón de diseño **Modelo-Vista-Controlador (MVC)**.
+* **Principios de Diseño:** La implementación adhiere rigurosamente a los principios **SOLID**, **DRY** (*Don't Repeat Yourself*) y **KISS** (*Keep It Simple, Stupid*), asegurando un código limpio, mantenible y extensible.
+* **Separación de Preocupaciones:** Se utiliza un **motor de plantillas propio** para desacoplar la lógica de negocio de la presentación visual. Esto permite **reutilizar la funcionalidad** con diferentes bibliotecas CSS (*e.g.*, **Tailwind CSS**) sin comprometer la compatibilidad funcional.
+* **Utilidades:** Se han desarrollado **bibliotecas internas** para el manejo estandarizado de elementos críticos (fechas, horas, montos financieros, y validaciones), promoviendo la consistencia en toda la aplicación.
+
+---
+
+## Estrategia de Seguridad
+
+Se implementa un robusto sistema de gestión de sesiones y acceso, centrado en la **autorización estricta** y la **detección de intrusos**.
+
+* **Gestión de Sesiones:** Soporte para el manejo de sesiones mediante *cookies* tradicionales o **JSON Web Tokens (JWT)**.
+* **Autorización Dinámica de Rutas:** Las rutas a las que un usuario puede acceder son **generadas dinámicamente** y establecidas en base a sus **permisos asignados** durante el inicio de sesión. Esto asegura que solo se pueda intentar una **transacción autorizada**.
+* **Mecanismo Anti-Intrusión (Detección de Tokens):**
+    1.  Al iniciar sesión, se genera un **token de seguridad** que incluye el **ID de usuario**, la **dirección IP**, y el **Sistema Operativo (SO)**.
+    2.  Este token se valida en **cada interacción** del usuario con la plataforma.
+    3.  **Respuesta a Intrusos:** Si se detecta un intento de sesión no autorizado o un *spoofing*, el intruso es **inicialmente baneado** por un período de 5 horas.
+    4.  **Lista Negra (*Blacklisting*):** En caso de persistencia en el ataque, la dirección IP maliciosa se puede enviar a la **lista negra (*blacklist*) a nivel del servidor**, si el entorno de *hosting* lo permite, para una mitigación más severa.
+
+---
+
 ### Caracteristicas
 #### Funcionalidades de la plataforma
-#### - Core
-Base funcional de la plataforma
+#### - Base
+Base funcional de la plataforma, contiene las tablas básicas, el manejo de usuarios y sus permisos.
 
 ##### Login
 <p>Pantalla de inicio sesión y recuperación de contraseña</p>
