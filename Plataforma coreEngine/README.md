@@ -8,7 +8,7 @@ Contraseña: 1234
 
 ---
 
-## Resumen Ejecutivo de la Plataforma
+## Resumen de la Plataforma
 
 Esta plataforma está diseñada específicamente para **pequeñas y medianas empresas (PyMEs)** con infraestructura de alojamiento estándar, compatible con entornos **LAMP/LEMP** (servidores **Apache o Nginx**, **PHP** y **MySQL**).
 
@@ -25,7 +25,7 @@ El proyecto se basa en **Fat-Free Framework (F3)**, un **micro *framework*** rec
 | **Backend / Lógica** | **Fat-Free Framework (F3)** | Micro *framework* PHP ligero. |
 | **Base de Datos** | **MySQL** | Utiliza el **ORM nativo de F3**, permitiendo una fácil **portabilidad** a otras bases de datos relacionales. |
 | **Interfaz Gráfica (UI)** | **Bootstrap 5**, Glyhicons, Boxicons. | Componentes visuales y *frontend* responsivo. |
-| **Funcionalidad *Frontend*** | **jQuery**, SweetAlert, Chart.js, ApexCharts, Plotly.js, Material-Picker. | Interactividad avanzada, notificaciones, visualización de datos (**gráficos y *dashboards***). |
+| **Funcionalidad *Frontend*** | **jQuery**, SweetAlert, Chart.js, ApexCharts, Plotly.js, Material-Picker, etc. | Interactividad avanzada, notificaciones, visualización de datos (**gráficos y *dashboards***), etc. |
 
 ---
 
