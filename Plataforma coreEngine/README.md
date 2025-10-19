@@ -54,6 +54,29 @@ Se implementa un robusto sistema de gestión de sesiones y acceso, centrado en l
 
 ---
 
+## ¿Porque Fat Free y no otro?
+
+Porque es el framework mas limpio que encontre y uno de los que tiene el mejor benchmark frente a otros frameworks populares, existe otro aun mas rapido llamado kumbia, pero este implementa su propia forma de organizar sus componentes y es demasiado restrictiva lo que impide la reutilizacion de componentes y funciones
+
+#### benchmarks
+
+Respuestas por segundo
+
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_31.png' />
+
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_32.png' />
+
+Latencia
+
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_33.png' />
+
+Sobrecarga
+
+<img src='https://github.com/tenshi98/Trabajo_Imagenes/blob/main/Plataforma%20coreEngine/src/img_34.png' />
+
+
+---
+
 ### Caracteristicas
 #### Funcionalidades de la plataforma
 #### - Base
