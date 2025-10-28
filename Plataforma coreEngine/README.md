@@ -12,8 +12,6 @@ Contraseña: 1234
 
 Esta plataforma está diseñada específicamente para **pequeñas y medianas empresas (PyMEs)** con infraestructura de alojamiento estándar, compatible con entornos **LAMP/LEMP** (servidores **Apache o Nginx**, **PHP** y **MySQL**).
 
-La arquitectura inicial es un **monolito unificado** que integra la interfaz de usuario, la lógica de negocio y la capa de datos en un solo despliegue. No obstante, su **diseño modular** y el manejo interno de rutas facilitan una **migración o evolución fluida** hacia una arquitectura de *backend* basada en *endpoints* (servicios web/APIs) en el futuro, garantizando la **escalabilidad** y **adaptabilidad** a medida que la empresa crece.
-
 ---
 
 ## Stack Tecnológico
@@ -33,24 +31,24 @@ El proyecto se basa en **Fat-Free Framework (F3)**, un **micro *framework*** rec
 
 La plataforma adopta la **Arquitectura *Screaming***, la cual prioriza la **modularidad** y la fácil instalación de nuevos componentes (*plugins* o módulos).
 
-* **Estructura Interna:** Cada módulo sigue el patrón de diseño **Modelo-Vista-Controlador (MVC)**.
+* **Estructura Interna:** Cada módulo es independiente de otros y sigue el patrón de diseño **Modelo-Vista-Controlador (MVC)**, pero puede utilizar cualquier otro gracias a su modularidad.
 * **Principios de Diseño:** La implementación adhiere rigurosamente a los principios **SOLID**, **DRY** (*Don't Repeat Yourself*) y **KISS** (*Keep It Simple, Stupid*), asegurando un código limpio, mantenible y extensible.
-* **Separación de Preocupaciones:** Se utiliza un **motor de plantillas propio** para desacoplar la lógica de negocio de la presentación visual. Esto permite **reutilizar la funcionalidad** con diferentes bibliotecas CSS (*e.g.*, **Tailwind CSS**) sin comprometer la compatibilidad funcional.
-* **Utilidades:** Se han desarrollado **bibliotecas internas** para el manejo estandarizado de elementos críticos (fechas, horas, montos financieros, y validaciones), promoviendo la consistencia en toda la aplicación.
+* **Separación de Preocupaciones:** Se utiliza el **motor de plantillas nativo de F3** para desacoplar la lógica de negocio de la presentación visual. Esto permite **reutilizar la funcionalidad** con diferentes bibliotecas (por ejemplo pasar de **Bootstrap** a **Tailwind CSS**) sin comprometer la compatibilidad funcional.
+* **Utilidades:** Se han desarrollado **bibliotecas internas** para el manejo estandarizado de elementos críticos (fechas, horas, montos financieros, validaciones, notificaciones y mailing, etc.), promoviendo la consistencia en toda la aplicación.
 
 ---
 
 ## Estrategia de Seguridad
 
-Se implementa un robusto sistema de gestión de sesiones y acceso, centrado en la **autorización estricta** y la **detección de intrusos**.
+Se implementa un robusto sistema de gestión de sesiones y acceso centrado en la **autorización estricta** y la **detección de intrusos**.
 
-* **Gestión de Sesiones:** Soporte para el manejo de sesiones mediante *cookies* tradicionales o **JSON Web Tokens (JWT)**.
-* **Autorización Dinámica de Rutas:** Las rutas a las que un usuario puede acceder son **generadas dinámicamente** y establecidas en base a sus **permisos asignados** durante el inicio de sesión. Esto asegura que solo se pueda intentar una **transacción autorizada**.
-* **Mecanismo Anti-Intrusión (Detección de Tokens):**
-    1.  Al iniciar sesión, se genera un **token de seguridad** que incluye el **ID de usuario**, la **dirección IP**, y el **Sistema Operativo (SO)**.
-    2.  Este token se valida en **cada interacción** del usuario con la plataforma.
-    3.  **Respuesta a Intrusos:** Si se detecta un intento de sesión no autorizado o un *spoofing*, el intruso es **inicialmente baneado** por un período de 5 horas.
-    4.  **Lista Negra (*Blacklisting*):** En caso de persistencia en el ataque, la dirección IP maliciosa se puede enviar a la **lista negra (*blacklist*) a nivel del servidor**, si el entorno de *hosting* lo permite, para una mitigación más severa.
+* **Gestión de Sesiones:** Soporte para el manejo de sesiones mediante **cookies** tradicionales o **JSON Web Tokens (JWT)**.
+* **Autorización Dinámica de Rutas:** Las rutas a las que un usuario puede acceder son **generadas dinámicamente** y son establecidas en base a sus **permisos asignados** durante el inicio de sesión. Esto asegura que se pueda acceder sólo a las **transacciones autorizadas**.
+* **Mecanismo Anti-Intrusión (basado Tokens):**
+    1.  Al iniciar sesión, se genera un **token de seguridad** que incluye el **ID de usuario**, la **dirección IP**, y un **token CSRF**.
+    2.  Este token se valida en **cada interacción** del usuario con la plataforma, validando que el token CSRF y la dirección IP del equipo que hace la interacción sea el mismo que el que realizó el inicio de sesión.
+    3.  **Respuesta a Intrusos**: Si se detecta un intento de sesión no autorizado a una transacción no autorizada o un *spoofing* repetitivo, el intruso es **inicialmente baneado** por un período de 5 horas.
+    4.  **Lista Negra (*Blacklisting*):**: En caso de persistencia en el ataque, la dirección IP maliciosa se puede enviar a la **lista negra (*blacklist*) a nivel del servidor** de forma automática, si el entorno de *hosting* lo permite, para una mitigación más severa.
 
 ---
 
