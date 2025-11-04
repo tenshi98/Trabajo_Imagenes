@@ -1,11 +1,6 @@
 # Plataforma SimpliVet
 Plataforma dividida en tres sub-plataformas.
 
-### Demo Plataforma Clientes
-URL Demo: [democliente.simplivet.cl](https://democliente.simplivet.cl/)<br/>
-Usuario: demo1@testmail.com<br/>
-Contraseña: 1234
-
 ### Descripción
 #### Plataforma Administrativa
 Plataforma hecha para administrar a los clientes, en este caso las veterinarias y establecer sus planes de contrato y hacer las facturaciones mensuales por los servicios.
